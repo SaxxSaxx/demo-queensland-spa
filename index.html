@@ -4,69 +4,199 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Queensland Spa | Nechtové štúdio & Kaderníctvo Čadca</title>
+    <meta name="description" content="Premium nechtové štúdio a pánske kaderníctvo v Čadci. Gél lak, modeláž, manikúra, pedikúra.">
     <script src="https://cdn.tailwindcss.com"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Lato:wght@400;700&display=swap" rel="stylesheet">
-    <style>body{font-family:'Lato',sans-serif}h1,h2,h3{font-family:'Playfair Display',serif}</style>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>body{font-family:'Poppins',sans-serif}h1,h2,h3,h4{font-family:'Playfair Display',serif}</style>
 </head>
-<body class="bg-pink-50">
-    <header class="bg-gradient-to-r from-pink-600 to-purple-600 text-white py-16">
-        <div class="container mx-auto px-6 text-center">
-            <h1 class="text-5xl font-bold mb-2">Queensland Spa</h1>
-            <p class="text-2xl mb-4">Nechtové štúdio & Pánske kaderníctvo</p>
-            <p class="text-lg opacity-90">Čadca | Palárikova 1158</p>
-            <div class="mt-6">
-                <a href="tel:0910469974" class="bg-white text-pink-600 font-bold py-3 px-8 rounded-full hover:bg-gray-100 transition">Objednať sa</a>
+<body class="bg-rose-50">
+    <!-- Top Bar -->
+    <div class="bg-rose-900 text-white py-2 text-sm">
+        <div class="container mx-auto px-6 flex justify-between items-center">
+            <div class="flex items-center space-x-4">
+                <span><i class="fas fa-phone-alt mr-2"></i>0910 469 974</span>
+                <span><i class="fas fa-envelope mr-2"></i>queensland.slovensko@gmail.com</span>
+            </div>
+            <div class="flex items-center space-x-4">
+                <span><i class="fas fa-clock mr-2"></i>Po-Pia: 9:00-18:00</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="bg-white shadow-md sticky top-0 z-50">
+        <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <div class="text-2xl font-bold text-rose-900" style="font-family:'Playfair Display',serif">Queensland <span class="text-rose-500">Spa</span></div>
+            <div class="hidden md:flex space-x-8">
+                <a href="#sluzby" class="text-gray-700 hover:text-rose-600 transition">Služby</a>
+                <a href="#onas" class="text-gray-700 hover:text-rose-600 transition">O nás</a>
+                <a href="#galeria" class="text-gray-700 hover:text-rose-600 transition">Galéria</a>
+                <a href="#kontakt" class="text-gray-700 hover:text-rose-600 transition">Kontakt</a>
+            </div>
+            <a href="tel:0910469974" class="bg-rose-500 hover:bg-rose-600 text-white font-bold py-2 px-6 rounded-full transition">
+                <i class="fas fa-phone-alt mr-2"></i>Objednať sa
+            </a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="relative bg-gradient-to-br from-rose-600 via-purple-600 to-rose-800 text-white py-24 overflow-hidden">
+        <div class="absolute inset-0 bg-black opacity-10"></div>
+        <div class="absolute inset-0" style="background-image: url('data:image/svg+xml,%3Csvg width=\"100\" height=\"100\" viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"%3E%3Cpath d=\"M11 18c3.866 0 7-3.134 7-7s-3.134-7-7-7-7 3.134-7 7 3.134 7 7 7zm48 25c3.866 0 7-3.134 7-7s-3.134-7-7-7-7 3.134-7 7 3.134 7 7 7zm-43-7c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zm63 31c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zM34 90c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zm56-76c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zM12 86c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm28-65c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm23-11c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zm-6 60c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm29 22c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zM32 63c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zm57-13c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zm-9-21c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zM60 91c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zM35 41c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zM12 60c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2z\" fill=\"%23ffffff\" fill-opacity=\"0.05\" fill-rule=\"evenodd\"/%3E%3C/svg%3E');"></div>
+        <div class="container mx-auto px-6 relative z-10">
+            <div class="max-w-3xl mx-auto text-center">
+                <div class="inline-block bg-white/20 backdrop-blur-sm text-white px-4 py-1 rounded-full text-sm font-semibold mb-4">Premium Beauty Services</div>
+                <h1 class="text-5xl md:text-6xl font-bold mb-6 leading-tight" style="font-family:'Playfair Display',serif">Queensland Spa</h1>
+                <p class="text-2xl mb-2">Nechtové štúdio & Pánske kaderníctvo</p>
+                <p class="text-lg opacity-90 mb-8">Čadca | Palárikova 1158</p>
+                <p class="text-xl mb-8 text-rose-100">Objavte krásu a relax v našom štúdiu. Profesionálne služby pre vašu dokonalú vizáž.</p>
+                <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                    <a href="tel:0910469974" class="bg-white text-rose-600 hover:bg-rose-50 font-bold py-4 px-8 rounded-full text-lg transition shadow-lg">
+                        <i class="fas fa-phone-alt mr-2"></i>Objednať sa
+                    </a>
+                    <a href="#sluzby" class="bg-transparent border-2 border-white hover:bg-white hover:text-rose-600 text-white font-bold py-4 px-8 rounded-full text-lg transition">
+                        Naše služby
+                    </a>
+                </div>
+                <div class="mt-12 flex items-center justify-center space-x-8">
+                    <div class="text-center">
+                        <div class="text-3xl font-bold">5+</div>
+                        <div class="text-sm text-rose-200">rokov skúseností</div>
+                    </div>
+                    <div class="text-center">
+                        <div class="text-3xl font-bold">500+</div>
+                        <div class="text-sm text-rose-200">spokojných klientov</div>
+                    </div>
+                    <div class="text-center">
+                        <div class="text-3xl font-bold">100%</div>
+                        <div class="text-sm text-rose-200">kvalita</div>
+                    </div>
+                </div>
             </div>
         </div>
     </header>
 
-    <section class="py-16 container mx-auto px-6">
-        <h2 class="text-3xl font-bold text-center mb-12 text-gray-800">Naše služby</h2>
-        <div class="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
-            <div class="bg-white p-8 rounded-xl shadow-lg">
-                <div class="text-4xl mb-4">💅</div>
-                <h3 class="text-xl font-bold mb-2">Nechtové štúdio</h3>
-                <p class="text-gray-600">Gél lak, modeláž nechtov, manikúra, pedikúra</p>
+    <!-- Služby -->
+    <section id="sluzby" class="py-20 container mx-auto px-6">
+        <div class="text-center mb-16">
+            <h2 class="text-4xl font-bold text-gray-800 mb-4" style="font-family:'Playfair Display',serif">Naše služby</h2>
+            <p class="text-xl text-gray-600 max-w-2xl mx-auto">Kompletná starostlivosť o vaše nechty a vlasy pod jednou strechou</p>
+        </div>
+        <div class="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
+            <div class="bg-white p-8 rounded-2xl shadow-lg hover:shadow-2xl transition group">
+                <div class="w-16 h-16 bg-rose-100 rounded-full flex items-center justify-center mb-6 group-hover:bg-rose-500 transition">
+                    <i class="fas fa-hand-sparkles text-2xl text-rose-500 group-hover:text-white transition"></i>
+                </div>
+                <h3 class="text-2xl font-bold mb-4 text-gray-800" style="font-family:'Playfair Display',serif">Nechtové štúdio</h3>
+                <p class="text-gray-600 mb-4">Profesionálna starostlivosť o vaše nechty s použitím kvalitných materiálov.</p>
+                <ul class="text-sm text-gray-500 space-y-2">
+                    <li><i class="fas fa-check text-rose-500 mr-2"></i>Gél lak</li>
+                    <li><i class="fas fa-check text-rose-500 mr-2"></i>Modeláž nechtov</li>
+                    <li><i class="fas fa-check text-rose-500 mr-2"></i>Manikúra</li>
+                    <li><i class="fas fa-check text-rose-500 mr-2"></i>Pedikúra</li>
+                    <li><i class="fas fa-check text-rose-500 mr-2"></i>Nail art</li>
+                </ul>
             </div>
-            <div class="bg-white p-8 rounded-xl shadow-lg">
-                <div class="text-4xl mb-4">✂️</div>
-                <h3 class="text-xl font-bold mb-2">Pánske kaderníctvo</h3>
-                <p class="text-gray-600">Strihanie, úprava brady, klasický holičský servis</p>
+            <div class="bg-white p-8 rounded-2xl shadow-lg hover:shadow-2xl transition group">
+                <div class="w-16 h-16 bg-purple-100 rounded-full flex items-center justify-center mb-6 group-hover:bg-purple-500 transition">
+                    <i class="fas fa-cut text-2xl text-purple-500 group-hover:text-white transition"></i>
+                </div>
+                <h3 class="text-2xl font-bold mb-4 text-gray-800" style="font-family:'Playfair Display',serif">Pánske kaderníctvo</h3>
+                <p class="text-gray-600 mb-4">Moderné pánske strihy a úprava brady pre dokonalý vzhľad.</p>
+                <ul class="text-sm text-gray-500 space-y-2">
+                    <li><i class="fas fa-check text-purple-500 mr-2"></i>Pánske strihy</li>
+                    <li><i class="fas fa-check text-purple-500 mr-2"></i>Úprava brady</li>
+                    <li><i class="fas fa-check text-purple-500 mr-2"></i>Klasický holičsky servis</li>
+                    <li><i class="fas fa-check text-purple-500 mr-2"></i>Styling</li>
+                    <li><i class="fas fa-check text-purple-500 mr-2"></i>Farbenie vlasov</li>
+                </ul>
             </div>
         </div>
     </section>
 
-    <section class="bg-purple-900 text-white py-16">
+    <!-- O nás -->
+    <section id="onas" class="bg-rose-100 py-20">
+        <div class="container mx-auto px-6">
+            <div class="max-w-4xl mx-auto text-center">
+                <h2 class="text-4xl font-bold text-gray-800 mb-6" style="font-family:'Playfair Display',serif">Prečo si vybrať Queensland Spa?</h2>
+                <p class="text-gray-600 mb-12 text-lg">Sme tím profesionálov, ktorí milujú svoju prácu. Naším cieľom je, aby ste sa u nás cítili príjemne a odchádzali spokojní.</p>
+                <div class="grid md:grid-cols-3 gap-8">
+                    <div class="bg-white p-6 rounded-xl shadow-md">
+                        <div class="w-12 h-12 bg-rose-500 rounded-full flex items-center justify-center mx-auto mb-4">
+                            <i class="fas fa-gem text-white text-xl"></i>
+                        </div>
+                        <h4 class="font-bold text-gray-800 mb-2">Kvalitné produkty</h4>
+                        <p class="text-gray-600 text-sm">Používame len overené značky a prémiové materiály.</p>
+                    </div>
+                    <div class="bg-white p-6 rounded-xl shadow-md">
+                        <div class="w-12 h-12 bg-purple-500 rounded-full flex items-center justify-center mx-auto mb-4">
+                            <i class="fas fa-heart text-white text-xl"></i>
+                        </div>
+                        <h4 class="font-bold text-gray-800 mb-2">Individuálny prístup</h4>
+                        <p class="text-gray-600 text-sm">Každý klient je pre nás jedinečný a dostane starostlivosť na mieru.</p>
+                    </div>
+                    <div class="bg-white p-6 rounded-xl shadow-md">
+                        <div class="w-12 h-12 bg-rose-500 rounded-full flex items-center justify-center mx-auto mb-4">
+                            <i class="fas fa-spa text-white text-xl"></i>
+                        </div>
+                        <h4 class="font-bold text-gray-800 mb-2">Relaxačná atmosféra</h4>
+                        <p class="text-gray-600 text-sm">U nás si oddýchnete a načerpáte novú energiu.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="bg-gradient-to-r from-rose-600 to-purple-600 text-white py-16">
         <div class="container mx-auto px-6 text-center">
-            <h2 class="text-3xl font-bold mb-8">Prečo si vybrať nás?</h2>
-            <div class="grid md:grid-cols-3 gap-8 max-w-4xl mx-auto">
-                <div>
-                    <p class="text-4xl mb-2">⭐⭐⭐⭐⭐</p>
-                    <p>Kvalitné služby</p>
+            <h2 class="text-3xl md:text-4xl font-bold mb-4" style="font-family:'Playfair Display',serif">Pripravená na zmenu?</h2>
+            <p class="text-xl mb-8 text-rose-100">Objednajte sa ešte dnes a zažite premium starostlivosť.</p>
+            <a href="tel:0910469974" class="inline-block bg-white text-rose-600 hover:bg-rose-50 font-bold py-4 px-10 rounded-full text-xl transition shadow-lg">
+                <i class="fas fa-phone-alt mr-3"></i>0910 469 974
+            </a>
+        </div>
+    </section>
+
+    <!-- Kontakt -->
+    <section id="kontakt" class="py-20 container mx-auto px-6">
+        <div class="text-center mb-16">
+            <h2 class="text-4xl font-bold text-gray-800 mb-4" style="font-family:'Playfair Display',serif">Kontaktujte nás</h2>
+            <p class="text-xl text-gray-600">Tešíme sa na vašu návštevu</p>
+        </div>
+        <div class="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
+            <div class="bg-white p-8 rounded-2xl shadow-lg text-center">
+                <div class="w-16 h-16 bg-rose-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                    <i class="fas fa-map-marker-alt text-2xl text-rose-600"></i>
                 </div>
-                <div>
-                    <p class="text-4xl mb-2">💎</p>
-                    <p>Premium produkty</p>
+                <h3 class="text-xl font-bold mb-2">Adresa</h3>
+                <p class="text-gray-600">Palárikova 1158<br>022 01 Čadca</p>
+            </div>
+            <div class="bg-white p-8 rounded-2xl shadow-lg text-center">
+                <div class="w-16 h-16 bg-purple-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                    <i class="fas fa-phone-alt text-2xl text-purple-600"></i>
                 </div>
-                <div>
-                    <p class="text-4xl mb-2">😊</p>
-                    <p>Príjemná atmosféra</p>
+                <h3 class="text-xl font-bold mb-2">Telefón</h3>
+                <p class="text-gray-600"><a href="tel:0910469974" class="text-rose-600 hover:text-rose-800 font-semibold">0910 469 974</a></p>
+                <p class="text-sm text-gray-500 mt-2">queensland.slovensko@gmail.com</p>
+            </div>
+            <div class="bg-white p-8 rounded-2xl shadow-lg text-center">
+                <div class="w-16 h-16 bg-rose-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                    <i class="fas fa-clock text-2xl text-rose-600"></i>
                 </div>
+                <h3 class="text-xl font-bold mb-2">Otváracie hodiny</h3>
+                <p class="text-gray-600">Pondelok - Piatok: 9:00 - 18:00<br>Sobota: 9:00 - 14:00<br>Nedeľa: Zatvorené</p>
             </div>
         </div>
     </section>
 
-    <section class="py-16 container mx-auto px-6">
-        <div class="max-w-2xl mx-auto text-center">
-            <h2 class="text-3xl font-bold mb-8 text-gray-800">Kontakt</h2>
-            <p class="text-xl mb-2">📍 Palárikova 1158, Čadca</p>
-            <p class="text-xl mb-2">📞 <a href="tel:0910469974" class="text-pink-600 hover:text-pink-800">0910 469 974</a></p>
-            <p class="text-xl">✉️ queensland.slovensko@gmail.com</p>
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-gray-400 py-8">
+        <div class="container mx-auto px-6 text-center">
+            <p class="mb-2">© 2024 Queensland Spa | Všetky práva vyhradené</p>
+            <p class="text-sm">Nechtové štúdio & Pánske kaderníctvo Čadca</p>
         </div>
-    </section>
-
-    <footer class="bg-gray-800 text-gray-400 py-6 text-center">
-        <p>© 2024 Queensland Spa | Všetky práva vyhradené</p>
     </footer>
 </body>
 </html>
